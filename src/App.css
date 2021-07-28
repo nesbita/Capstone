@@ -54,6 +54,12 @@ h1 {
   margin-right: auto;
 }
 
+li {
+  color: white;
+  font-size: larger;
+  padding-top: 25px;
+}
+
 nav{
   background-color: darkslategrey;
 }
