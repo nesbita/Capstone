@@ -26,6 +26,47 @@
   color: white;
 }
 
+a {
+  color: white;
+}
+
+body {
+  background-color: darkslategrey;
+}
+
+h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+.homeContainer {
+  background-image: url('https://media0.giphy.com/media/lbksIVYnMkzio/giphy.gif?cid=ecf05e472eeq5kodzd61um1zmyd8e87feuwwqlg2jv9n4xdb&rid=giphy.gif&ct=g');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  height: 700px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav{
+  background-color: darkslategrey;
+}
+
+.productContainer {
+  background-color: darkslategrey;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
 /* .card1 {
   height: 600px;
 } 

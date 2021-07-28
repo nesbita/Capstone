@@ -9,16 +9,9 @@ import '../App.css'
 const Home = () => {
   return (
     <div>
-     
-      <Router> 
-         <Header />
             <h1>Welcome to the Farm!</h1>
-          <Route exact path='/' component={Home} />
-
-          <Route path='/Products' component={Products} />
-
-
-      </Router>
+    <div className='homeContainer'>
+    </div>
     </div>
   );
 }
